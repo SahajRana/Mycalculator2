@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context="com.rana.sahaj.mycalculator.BlankFragment"
+              android:weightSum="1">
+
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="167dp"
+        android:layout_height="58dp"
+        android:text="Picture"
+        android:id="@+id/BPic"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_weight="0.35"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="167dp"
+        android:layout_height="58dp"
+        android:text="calculator"
+        android:id="@+id/BCalc"
+        android:layout_weight="0.66"/>
+</LinearLayout>
